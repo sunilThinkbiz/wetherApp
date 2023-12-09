@@ -1,0 +1,66 @@
+{
+  "name": "my-weather-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/chart.js": "^2.9.37",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.36",
+    "@types/react": "^18.2.13",
+    "@types/react-dom": "^18.2.6",
+    "apexcharts": "^3.41.0",
+    "axios": "^1.4.0",
+    "chart.js": "^4.3.0",
+    "d3": "^7.8.5",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-config-standard-with-typescript": "^35.0.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8"
+  }
+}
